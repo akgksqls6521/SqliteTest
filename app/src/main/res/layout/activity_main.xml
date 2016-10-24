@@ -12,89 +12,91 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="0dip"
         android:layout_weight="1"
-        android:orientation="horizontal">
-
+        android:orientation="horizontal"
+        >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
             android:text="@string/str_name"
-            android:textAppearance="?android:textAppearanceMedium"/>
+            android:textAppearance="?android:textAppearanceMedium"
+            />
         <EditText
             android:id="@+id/edit_groupname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="0dip"
         android:layout_weight="1"
-        android:orientation="horizontal">
-
+        android:orientation="horizontal"
+        >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
             android:text="@string/str_count"
-            android:textAppearance="?android:textAppearanceMedium"/>
+            android:textAppearance="?android:textAppearanceMedium"
+            />
         <EditText
             android:id="@+id/edit_groupcount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="0dip"
         android:layout_weight="1"
-        android:orientation="horizontal" >
-
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
         <Button
             android:id="@+id/but_init"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/str_but_init"
-            android:textAppearance="?android:textAppearanceMedium"/>
-
+            android:textAppearance="?android:textAppearanceMedium"
+            />
         <Button
             android:id="@+id/but_input"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/str_but_input"
-            android:textAppearance="?android:textAppearanceMedium"/>
-
+            android:textAppearance="?android:textAppearanceMedium"
+            />
         <Button
             android:id="@+id/but_select"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/str_but_select"
-            android:textAppearance="?android:textAppearanceMedium"/>
+            android:textAppearance="?android:textAppearanceMedium"
+            />
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="0dip"
         android:layout_weight="8"
-        android:orientation="horizontal" >
-
+        android:orientation="horizontal"
+        >
+        <!--1:1크기로 EditText만들기-->
         <EditText
             android:id="@+id/edit_name_result"
             android:layout_width="0dip"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#fdff7f"
-            android:layout_marginRight="0dp"/>
-
+            android:background="#e1ffff"
+            android:layout_marginRight="0dp"
+            />
         <EditText
             android:id="@+id/edit_count_result"
             android:layout_width="0dip"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#fdff7f"
-            android:layout_marginLeft="0dp"/>
+            android:background="#e1ffff"
+            android:layout_marginLeft="0dp"
+            />
     </LinearLayout>
-
 </LinearLayout>
